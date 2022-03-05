@@ -1,0 +1,12 @@
+[programs.localnet]
+seer = "GTav3wuJLZq9qRXC5iihFnuHk1MYYcetUyxtW6VWo5Ri"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/umairbussi/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
